@@ -35,3 +35,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+/.idea/
+*.class
+/.gradle/
+/*/bin/
+/*/build/
+/build/
