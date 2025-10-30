@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Compra {
-
+//H
     @Id
     @EqualsAndHashCode.Include
     private String idCompra;
