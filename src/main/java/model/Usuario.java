@@ -4,6 +4,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Document(collection = "usuarios")
@@ -27,5 +29,5 @@ public class Usuario {
     private String passwordHash; // almacenar hash
     private Rol rol;
     private boolean activo;
-    private Instant fechaCreacion;
+    private LocalDate fechaCreacion;
 }

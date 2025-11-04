@@ -22,7 +22,7 @@ public class Soporte {
     @EqualsAndHashCode.Include
     private String idSoporte;
     private String idOperacion; // referencia a operación
-    private String idTecnico; // técnico asignado
+    private String idTecnico; // técnico asignado para por la mañana
     private Instant fechaRegistro;
     private String descripcionProblema;
     private SoportePrioridad prioridad;
