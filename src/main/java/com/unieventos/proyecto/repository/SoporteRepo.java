@@ -1,7 +1,7 @@
-package repository;
+package com.unieventos.proyecto.repository;
 
-import model.Soporte;
-import model.SoportePrioridad;
+import com.unieventos.proyecto.model.Soporte;
+import com.unieventos.proyecto.model.SoportePrioridad;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package repository;
+package com.unieventos.proyecto.repository;
 
-import model.Operacion;
-import model.OperacionTipo;
+import com.unieventos.proyecto.model.Operacion;
+import com.unieventos.proyecto.model.OperacionTipo;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package model;
+package com.unieventos.proyecto.model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
 
-@Document(collection = "operaciones")
+@Document(collection = "licencias")
 @Data
 @Builder
 @NoArgsConstructor
@@ -15,15 +15,16 @@ import java.time.Instant;
 @Setter
 @ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Operacion {
+public class Licencia {
 
     @Id
     @EqualsAndHashCode.Include
+    private String idLicencia;
+    private String idProducto;
     private String idOperacion;
-    private String idSolicitud; // FK -> Solicitud.idSolicitud
-    private OperacionTipo tipo; // COMPRA | SOPORTE | RENOVACION
-    private Instant fechaOperacion;
-    private Double total;
-    private Instant fechaRecepcion;
-    private String notas;
+    private String tipo;
+    private String codigo;
+    private Instant fechaEmision;
+    private Instant fechaVencimiento;
+    private String estado; // VIGENTE, VENCIDA, RENOVADA etc.
 }

@@ -1,6 +1,6 @@
-package repository;
+package com.unieventos.proyecto.repository;
 
-import model.Licencia;
+import com.unieventos.proyecto.model.Licencia;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

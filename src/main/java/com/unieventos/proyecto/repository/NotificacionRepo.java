@@ -1,6 +1,6 @@
-package repository;
+package com.unieventos.proyecto.repository;
 
-import model.Notificacion;
+import com.unieventos.proyecto.model.Notificacion;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
