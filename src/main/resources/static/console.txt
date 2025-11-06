@@ -1,0 +1,162 @@
+db.productos.insertMany([
+    {
+        nombre: "Camiseta evento deportivo",
+        descripcion: "Camiseta oficial del evento deportivo universitario 2025",
+        stock: 100,
+        umbralReorden: 20,
+        precio: 25.99,
+        image: "https://example.com/img/camiseta1.jpg"
+    },
+    {
+        nombre: "Gorra unieventos",
+        descripcion: "Gorra con logo bordado de Unieventos",
+        stock: 60,
+        umbralReorden: 10,
+        precio: 15.50,
+        image: "https://example.com/img/gorra.jpg"
+    },
+    {
+        nombre: "Botella reutilizable",
+        descripcion: "Botella de acero inoxidable con logo del evento",
+        stock: 80,
+        umbralReorden: 15,
+        precio: 18.00,
+        image: "https://example.com/img/botella.jpg"
+    },
+    {
+        nombre: "Mochila deportiva",
+        descripcion: "Mochila resistente con compartimientos múltiples",
+        stock: 45,
+        umbralReorden: 10,
+        precio: 35.99,
+        image: "https://example.com/img/mochila.jpg"
+    },
+    {
+        nombre: "Cuaderno institucional",
+        descripcion: "Cuaderno tamaño A5 con portada del evento",
+        stock: 200,
+        umbralReorden: 30,
+        precio: 7.25,
+        image: "https://example.com/img/cuaderno.jpg"
+    },
+    {
+        nombre: "Bolígrafo Unieventos",
+        descripcion: "Bolígrafo metálico grabado con el logo del evento",
+        stock: 300,
+        umbralReorden: 50,
+        precio: 3.50,
+        image: "https://example.com/img/boligrafo.jpg"
+    },
+    {
+        nombre: "Llavero metálico",
+        descripcion: "Llavero con forma del logo de la universidad",
+        stock: 150,
+        umbralReorden: 20,
+        precio: 5.99,
+        image: "https://example.com/img/llavero.jpg"
+    },
+    {
+        nombre: "Taza conmemorativa",
+        descripcion: "Taza blanca conmemorativa del evento 2025",
+        stock: 120,
+        umbralReorden: 25,
+        precio: 10.00,
+        image: "https://example.com/img/taza.jpg"
+    },
+    {
+        nombre: "Polo premium",
+        descripcion: "Polo de algodón con bordado del logo",
+        stock: 90,
+        umbralReorden: 15,
+        precio: 29.99,
+        image: "https://example.com/img/polo.jpg"
+    },
+    {
+        nombre: "Sudadera con capucha",
+        descripcion: "Sudadera unisex con capucha y diseño del evento",
+        stock: 70,
+        umbralReorden: 15,
+        precio: 45.00,
+        image: "https://example.com/img/sudadera.jpg"
+    },
+    {
+        nombre: "Bolsa ecológica",
+        descripcion: "Bolsa reutilizable de tela con impresión de Unieventos",
+        stock: 250,
+        umbralReorden: 40,
+        precio: 6.75,
+        image: "https://example.com/img/bolsa.jpg"
+    },
+    {
+        nombre: "Pulsera de silicona",
+        descripcion: "Pulsera con frase motivacional del evento",
+        stock: 500,
+        umbralReorden: 100,
+        precio: 2.50,
+        image: "https://example.com/img/pulsera.jpg"
+    },
+    {
+        nombre: "Gafas de sol deportivas",
+        descripcion: "Gafas de sol con protección UV y logo del evento",
+        stock: 40,
+        umbralReorden: 10,
+        precio: 22.90,
+        image: "https://example.com/img/gafas.jpg"
+    },
+    {
+        nombre: "Toalla deportiva",
+        descripcion: "Toalla absorbente con diseño personalizado",
+        stock: 80,
+        umbralReorden: 20,
+        precio: 12.99,
+        image: "https://example.com/img/toalla.jpg"
+    },
+    {
+        nombre: "Paraguas Unieventos",
+        descripcion: "Paraguas automático resistente al viento",
+        stock: 60,
+        umbralReorden: 10,
+        precio: 19.99,
+        image: "https://example.com/img/paraguas.jpg"
+    },
+    {
+        nombre: "Pin coleccionable",
+        descripcion: "Pin conmemorativo de edición limitada del evento 2025",
+        stock: 80,
+        umbralReorden: 10,
+        precio: 8.50,
+        image: "https://example.com/img/pin.jpg"
+    },
+    {
+        nombre: "Agenda del evento",
+        descripcion: "Agenda 2025 con diseño del evento y calendario anual",
+        stock: 100,
+        umbralReorden: 20,
+        precio: 14.99,
+        image: "https://example.com/img/agenda.jpg"
+    },
+    {
+        nombre: "Brazalete RFID",
+        descripcion: "Brazalete para control de acceso a eventos",
+        stock: 150,
+        umbralReorden: 30,
+        precio: 9.99,
+        image: "https://example.com/img/brazalete.jpg"
+    },
+    {
+        nombre: "Pañuelo deportivo",
+        descripcion: "Pañuelo multifuncional transpirable",
+        stock: 200,
+        umbralReorden: 40,
+        precio: 7.50,
+        image: "https://example.com/img/panuelo.jpg"
+    },
+    {
+        nombre: "Set de stickers",
+        descripcion: "Paquete de stickers temáticos del evento",
+        stock: 300,
+        umbralReorden: 50,
+        precio: 4.50,
+        image: "https://example.com/img/stickers.jpg"
+    }
+]);
