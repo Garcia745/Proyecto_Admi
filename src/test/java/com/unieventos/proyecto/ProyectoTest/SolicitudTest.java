@@ -1,7 +1,10 @@
 package com.unieventos.proyecto.ProyectoTest;
 
 import com.unieventos.proyecto.model.*;
-import com.unieventos.proyecto.repository.*;
+import com.unieventos.proyecto.repository.repository.OperacionRepo;
+import com.unieventos.proyecto.repository.repository.SolicitudRepo;
+import com.unieventos.proyecto.repository.repository.SoporteRepo;
+import com.unieventos.proyecto.repository.repository.UsuarioRepo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

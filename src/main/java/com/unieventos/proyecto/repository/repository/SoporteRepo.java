@@ -1,4 +1,4 @@
-package com.unieventos.proyecto.repository;
+package com.unieventos.proyecto.repository.repository;
 
 import com.unieventos.proyecto.model.Soporte;
 import com.unieventos.proyecto.model.SoportePrioridad;

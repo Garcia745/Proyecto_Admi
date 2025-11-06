@@ -2,7 +2,7 @@ package com.unieventos.proyecto.ProyectoTest;
 
 import com.unieventos.proyecto.model.Usuario;
 import com.unieventos.proyecto.model.Rol;
-import com.unieventos.proyecto.repository.UsuarioRepo;
+import com.unieventos.proyecto.repository.repository.UsuarioRepo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
