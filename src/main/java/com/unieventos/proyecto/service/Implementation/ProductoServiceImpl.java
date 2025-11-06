@@ -18,4 +18,27 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> getAllProducts() {
         return repository.findAll();
     }
+
+    @Override
+    public Producto getProductById(String idProducto){
+        return repository.findById(idProducto).get();
+    }
+
+    @Override
+    public String deleteProductById(String idProducto) {
+        try{
+            repository.deleteById(idProducto);
+            return "Se elimino correctamente el producto";
+        }catch (Exception e){
+            return e.getMessage();
+        }
+
+    }
+
+    @Override
+    public Producto updateProduct(String idProducto, Integer stock) {
+        Producto productoFound =  repository.findById(idProducto).get();
+        productoFound.setStock(stock);
+        return repository.save(productoFound);
+    }
 }
