@@ -1,4 +1,4 @@
-package com.unieventos.proyecto.repository.repository;
+package com.unieventos.proyecto.repository;
 
 import com.unieventos.proyecto.model.Equipo;
 import org.springframework.data.mongodb.repository.MongoRepository;

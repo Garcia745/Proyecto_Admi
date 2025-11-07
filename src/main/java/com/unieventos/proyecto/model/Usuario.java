@@ -24,7 +24,7 @@ public class Usuario {
     private String apellido;
     private String email;
     private List<String> telefono;
-    private String passwordHash; // almacenar hash
+    private String password;
     private Rol rol;
     private boolean activo;
     private LocalDate fechaCreacion;

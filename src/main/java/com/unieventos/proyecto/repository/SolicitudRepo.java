@@ -1,4 +1,4 @@
-package com.unieventos.proyecto.repository.repository;
+package com.unieventos.proyecto.repository;
 
 import com.unieventos.proyecto.model.Solicitud;
 import com.unieventos.proyecto.model.SolicitudEstado;

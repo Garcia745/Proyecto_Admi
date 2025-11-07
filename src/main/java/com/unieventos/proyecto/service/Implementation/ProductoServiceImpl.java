@@ -1,7 +1,7 @@
 package com.unieventos.proyecto.service.Implementation;
 
 import com.unieventos.proyecto.model.Producto;
-import com.unieventos.proyecto.repository.repository.ProductoRepo;
+import com.unieventos.proyecto.repository.ProductoRepo;
 import com.unieventos.proyecto.service.Interface.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
